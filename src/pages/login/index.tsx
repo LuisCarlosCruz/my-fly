@@ -18,7 +18,7 @@ const Login = () => {
 
         <Box sx={{ display: 'flex', justifyContent: 'flex-end', marginLeft: '10%' }} className='col-4 container text-center'>
           <Card sx={{ maxWidth: 400, bgcolor: '#FDF5E6', padding: 5 }} >
-            <h3 className='mt-3'>Ainda Não Tem Conta?</h3>
+            <h4 className='mt-3'>Ainda Não Tem Conta?</h4>
             <Box sx={{ marginTop: '108%' }}>
               <Button variant="contained" sx={{
                 width: '100%', marginBottom: 2, bgcolor: 'warning.main', ':hover': { bgcolor: '#FFA500', cursor: 'pointer' },
@@ -29,7 +29,7 @@ const Login = () => {
 
         <Box sx={{ display: 'flex', justifyContent: 'flex-start', marginRight: '10%' }} className='col-4 container text-center'>
           <Card sx={{ maxWidth: 400, bgcolor: '#FDF5E6', padding: 5 }}>
-            <h3 className='mt-3'>Login</h3>
+            <h4 className='mt-3'>Login</h4>
             <p className='text-start mt-3'>
               Ganhe tempo ao fazer login e gerenciar suas viagens. Aqui, você também pode
               contratar serviços exclusivos para tornar sua viagem ainda melhor!
@@ -44,6 +44,7 @@ const Login = () => {
                 <div className="mb-3">
                   <label htmlFor="exampleFormControlInput1" className="form-label">Senha</label>
                   <input type="email" className="form-control border border-warning" id="exampleFormControlInput1" placeholder="*******" />
+                  <i><a href="https://www.google.com/" target="_blank">Esqueci a senha</a> </i>
                 </div>
               </form>
             </Box>
